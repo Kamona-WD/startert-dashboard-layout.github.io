@@ -5,13 +5,18 @@
   "repository": "git@github.com:Kamona-WD/starter-dashboard-layout.git",
   "author": "Kamona-WD <ak3849909@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "astro dev"
   },
   "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.8.1",
+    "@iconify-json/tabler": "^1.2.5",
     "@tailwindcss/forms": "^0.5.9",
     "astro": "^4.16.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "typescript": "^5.6.3"
   }

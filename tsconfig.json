@@ -4,7 +4,14 @@
     "baseUrl": ".",
     "paths": {
       "@astro/*": ["src/html/*"],
+      "@layouts/*": ["src/html/layouts/*"],
       "@/*": ["src/*"],
     }
-  }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "out",
+    "tmp"
+  ]
 }
