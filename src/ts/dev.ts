@@ -18,10 +18,8 @@ export default () => {
                 handleWindowResize() {
                     if (window.innerWidth <= 1024) {
                         this.isSidebarOpen = false
-                        //   console.log('1204');
                     } else {
                         this.isSidebarOpen = true
-                        // console.log('1');
                     }
                 },
                 isSearchBoxOpen: false,
